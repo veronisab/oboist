@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@100;400;700&display=swap');
 :root {
     --pink: #D26890;
     --red:#d10000;
@@ -15,11 +15,12 @@
 
 body {
     background-color: #111;
-    color: #ccc;
+    background: url(bg-d.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: #fff;
     margin: 0 auto;
     height: 100vh;
-    width: 100vw;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -27,12 +28,6 @@ body {
     top: 0;
     padding: 20px;
     width: 100%;
-}
-
-.hero {
-    height: 100vh;
-    display: grid;
-    place-content: center;
 }
 
 nav {
@@ -45,6 +40,17 @@ main {
     width: 100%;
     display: grid;
     place-content: center;
+}
+
+section {
+    background-color: #000000cc;
+    padding: 20px 20px 30px 20px;
+}
+.hero {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: none;
 }
 
 #about {
@@ -83,8 +89,18 @@ h2 {
     font-family: 'Libre Baskerville', serif;
 }
 
+.hero, nav a {
+    text-shadow: #000 0px 0px 10px;
+}
+.hero h1, h2 {
+    margin: 0;
+}
 h1 {
     font-size: 40pt;
+}
+
+h3 {
+    font-size: 1.6em;
 }
 /* LINKS */
 
@@ -152,31 +168,17 @@ section img {
     margin-top: 50px;
 }
 
-/* BORDERS AND BORDER RADIUS */
-
-.b0 {
-    border: 0;
-}
-
-.br10 {
-    border-radius: 10px;
-}
-
-.br50 {
-    border-radius: 50%;
-}
 
 /* CALENDAR */
 
 .calendar {
     display: flex;
-    align-items: center;
     margin: 20px 0;
 }
 
 .datetag {
     padding: 8px;
-    margin: 20px;
+    margin: 30px 45px 20px 20px;
     background-color: #fff;
     border-radius: 5px;
     color: var(--pink);
@@ -195,30 +197,17 @@ section img {
 
 
 /* animation */
-.starfirst {
+.starfirst{
     content: " ";
     position: absolute;
     width: 2px;
     height: 2px;
     border-radius: 50%;
     background: transparent;
-    box-shadow: 571px 173px var(--lightblue), 2000px 143px var(--lightblue), 1745px 454px var(--orange), 234px 784px var(--lightblue), 1893px 1123px var(--yellow), 1076px 504px var(--pink), 633px 601px var(--orange), 350px 630px var(--lightpurple), 1164px 782px var(--lightblue), 76px 690px var(--darkpurple), 1825px 701px var(--lightgreen), 1646px 578px var(--lightpurple), 544px 293px var(--red), 445px 1061px var(--darkblue), 928px 47px var(--lightblue), 168px 1410px var(--pink), 777px 782px var(--yellow), 1235px 1941px var(--yellow), 104px 1690px var(--pink), 1167px 1338px var(--pink), 345px 1652px var(--darkgreen), 1682px 1196px var(--yellow), 1995px 494px var(--pink), 428px 798px var(--orange), 340px 1623px var(--yellow), 605px 349px var(--yellow), 1339px 1344px var(--darkblue), 1102px 1745px var(--darkpurple), 1592px 1676px var(--red), 419px 1024px var(--yellow), 630px 1033px var(--lightgreen), 1995px 1644px var(--lightblue), 1092px 712px var(--yellow), 1355px 606px var(--yellow), 622px 1881px var(--lightgreen), 1481px 621px var(--gray), 19px 1348px var(--pink), 864px 1780px var(--pink), 442px 1136px var(--red), 67px 712px var(--orange), 89px 1406px var(--yellow), 275px 321px var(--darkgreen), 592px 630px var(--pink), 1012px 1690px var(--yellow), 1749px 23px var(--darkblue), 94px 1542px var(--lightpurple), 1201px 1657px var(--darkpurple), 1505px 692px var(--red), 1799px 601px var(--pink), 656px 811px var(--lightblue), 701px 597px var(--lightblue), 1202px 46px var(--orange), 890px 569px var(--orange), 1613px 813px var(--red), 223px 252px var(--yellow), 983px 1093px var(--yellow), 726px 1029px var(--yellow), 1764px 778px var(--lightgreen), 622px 1643px var(--yellow), 174px 1559px var(--darkblue), 212px 517px var(--lightblue), 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px var(--yellow), 849px 391px var(--yellow), 228px 1824px #FFF, 1119px 1680px var(--yellow), 812px 1480px var(--darkpurple), 1438px 1585px var(--lightgreen), 137px 1397px #FFF, 1080px 456px var(--darkblue), 1208px 1437px var(--pink), 857px 281px var(--yellow), 1254px 1306px var(--lightgreen), 987px 990px var(--lightgreen), 1655px 911px var(--lightblue), 1102px 1216px var(--orange), 1807px 1044px #FFF, 660px 435px var(--pink), 299px 678px var(--lightgreen), 1193px 115px var(--yellow), 918px 290px var(--lightgreen), 1447px 1422px var(--lightpurple), 91px 1273px var(--yellow), 108px 223px var(--lightpurple), 146px 754px var(--lightblue), 461px 1446px var(--orange), 1004px 391px var(--darkblue), 1529px 516px var(--yellow), 1206px 845px var(--lightgreen), 347px 583px var(--darkgreen), 1102px 1332px var(--yellow), 709px 1756px var(--lightblue), 1972px 248px #FFF, 1669px 1344px var(--orange), 1132px 406px var(--yellow), 320px 1076px var(--lightgreen), 126px 943px var(--lightpurple), 263px 604px var(--orange), 1546px 692px var(--yellow);
+    box-shadow: 571px 173px #fff, 2000px 143px #fff, 1745px 454px #fff, 234px 784px #fff, 1893px 1123px #fff, 1076px 504px #fff, 633px 601px #fff, 350px 630px #fff, 1164px 782px #fff, 76px 690px #fff;
     animation: animStar 50s linear infinite;
   }
 
-.starsecond{
-    content: " ";
-    position: absolute;
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: transparent;
-    box-shadow: 571px 173px var(--lightblue), 2000px 143px var(--lightblue), 1745px 454px var(--orange), 234px 784px var(--lightblue), 1893px 1123px var(--yellow), 1076px 504px var(--pink), 633px 601px var(--orange), 350px 630px var(--lightpurple), 1164px 782px var(--lightblue), 76px 690px var(--darkpurple), 1825px 701px var(--lightgreen), 1646px 578px var(--lightpurple), 544px 293px var(--red), 445px 1061px var(--darkblue), 928px 47px var(--lightblue), 168px 1410px var(--pink), 777px 782px var(--yellow), 1235px 1941px var(--yellow), 104px 1690px var(--pink), 1167px 1338px var(--pink), 345px 1652px var(--darkgreen), 1682px 1196px var(--yellow), 1995px 494px var(--pink), 428px 798px var(--orange), 340px 1623px var(--yellow), 605px 349px var(--yellow), 1339px 1344px var(--darkblue), 1102px 1745px var(--darkpurple), 1592px 1676px var(--red), 419px 1024px var(--yellow), 630px 1033px var(--lightgreen), 1995px 1644px var(--lightblue), 1092px 712px var(--yellow), 1355px 606px var(--yellow), 622px 1881px var(--lightgreen), 1481px 621px var(--gray), 19px 1348px var(--pink), 864px 1780px var(--pink), 442px 1136px var(--red), 67px 712px var(--orange), 89px 1406px var(--yellow), 275px 321px var(--darkgreen), 592px 630px var(--pink), 1012px 1690px var(--yellow), 1749px 23px var(--darkblue), 94px 1542px var(--lightpurple), 1201px 1657px var(--darkpurple), 1505px 692px var(--red), 1799px 601px var(--pink), 656px 811px var(--lightblue), 701px 597px var(--lightblue), 1202px 46px var(--orange), 890px 569px var(--orange), 1613px 813px var(--red), 223px 252px var(--yellow), 983px 1093px var(--yellow), 726px 1029px var(--yellow), 1764px 778px var(--lightgreen), 622px 1643px var(--yellow), 174px 1559px var(--darkblue), 212px 517px var(--lightblue), 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px var(--yellow), 849px 391px var(--yellow), 228px 1824px #FFF, 1119px 1680px var(--yellow), 812px 1480px var(--darkpurple), 1438px 1585px var(--lightgreen), 137px 1397px #FFF, 1080px 456px var(--darkblue), 1208px 1437px var(--pink), 857px 281px var(--yellow), 1254px 1306px var(--lightgreen), 987px 990px var(--lightgreen), 1655px 911px var(--lightblue), 1102px 1216px var(--orange), 1807px 1044px #FFF, 660px 435px var(--pink), 299px 678px var(--lightgreen), 1193px 115px var(--yellow), 918px 290px var(--lightgreen), 1447px 1422px var(--lightpurple), 91px 1273px var(--yellow), 108px 223px var(--lightpurple), 146px 754px var(--lightblue), 461px 1446px var(--orange), 1004px 391px var(--darkblue), 1529px 516px var(--yellow), 1206px 845px var(--lightgreen), 347px 583px var(--darkgreen), 1102px 1332px var(--yellow), 709px 1756px var(--lightblue), 1972px 248px #FFF, 1669px 1344px var(--orange), 1132px 406px var(--yellow), 320px 1076px var(--lightgreen), 126px 943px var(--lightpurple), 263px 604px var(--orange), 1546px 692px var(--yellow);
-    animation: animStar 150s linear infinite;
-  }
-  
- 
-  
   @keyframes animStar
   {
     0% {
@@ -232,8 +221,12 @@ section img {
   
   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     
+    body {
+        background: url(bg-m.jpg) no-repeat center;
+        background-size: cover;
+    }
     .header {
         position: relative;
         top: 0;
@@ -241,6 +234,10 @@ section img {
 
     #about, body, nav, nav a{
         display: block;
+    }
+
+    nav a:hover {
+        background-color: #000;
     }
     main {
         margin: 3px;
