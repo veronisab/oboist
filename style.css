@@ -198,7 +198,12 @@ section img {
         top: 0;
     }
 
-    .about, body, nav, nav a{
+    .about, 
+    body, 
+    article, 
+    img, 
+    nav, 
+    nav a{
         display: block;
     }
 
@@ -214,10 +219,6 @@ section img {
         padding: 2px;
         width: 100vw;
         overflow: auto;
-    }
-
-    article, img {
-        max-width: 100%;
     }
 
     .listen, 
