@@ -204,6 +204,10 @@ section img {
         display: block;
     }
 
+    #about{
+        padding:2px;
+    }
+
     nav a:hover {
         background-color: #000;
     }
