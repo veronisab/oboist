@@ -190,7 +190,7 @@ section img {
     
     body {
         background: url(bg-mobile.jpg) no-repeat center fixed;
-        background-size: 100%;
+        background-size: contain;
         height: 100vh;
     }
     .header {
