@@ -185,8 +185,6 @@ section img {
   }
   }
   
-  
-  
 
 @media screen and (max-width: 800px) {
     
@@ -219,7 +217,7 @@ section img {
     }
 
     article, img {
-        width: 100%;
+        max-width: 100%;
     }
 
     .listen, 
