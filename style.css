@@ -213,7 +213,7 @@ section img {
         width: 100vw;
     }
 
-    article {
+    article, img {
         width: 90%;
     }
 
