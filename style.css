@@ -190,8 +190,8 @@ section img {
     
     body {
         background: url(bg-mobile.jpg) no-repeat center fixed;
-        background-size: contain;
-        height: 100vh;
+        background-size: cover;
+        max-height: 100vh;
     }
     .header {
         position: relative;
