@@ -202,7 +202,6 @@ section img {
 
     #about, body, nav, nav a{
         display: block;
-        max-width: 100vw;
     }
 
     nav a:hover {
