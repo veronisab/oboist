@@ -210,8 +210,9 @@ section img {
     }
     main, section {
         margin: 0;
-        padding: 5px;
+        padding: 2px;
         width: 100vw;
+        overflow: auto;
     }
 
     article, img {
