@@ -57,6 +57,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    hyphens: auto;
 }
 .listen, 
 .calendar, 
@@ -206,6 +207,7 @@ section img {
 
     #about{
         padding:2px;
+        width: 50%; 
     }
 
     nav a:hover {
