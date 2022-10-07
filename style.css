@@ -224,7 +224,7 @@ section img {
 @media screen and (max-width: 800px) {
     
     body {
-        background: url(bg-mobile.jpg) no-repeat center;
+        background: url(bg-mobile.jpg) no-repeat center fixed;
         background-size: cover;
     }
     .header {
