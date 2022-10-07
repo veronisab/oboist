@@ -241,6 +241,7 @@ section img {
     }
     main {
         margin: 3px;
+        width: 100vw;
     }
 
     article {
