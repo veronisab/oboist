@@ -224,7 +224,7 @@ section img {
 @media screen and (max-width: 800px) {
     
     body {
-        background: url(bg-m.jpg) no-repeat center;
+        background: url(bg-mobile.jpg) no-repeat center;
         background-size: cover;
     }
     .header {
@@ -250,10 +250,20 @@ section img {
     .listen, 
     .calendar, 
     .contact {
-        width: 95vw;
+        width: 100vw;
     }
 
     iframe {
         max-width: 90%;
     }
+
+.datetag {
+    margin: 20px;
+}
+.date-month,
+.date-day,
+.date-time {
+    font-size:1em;
+}
+
 }
