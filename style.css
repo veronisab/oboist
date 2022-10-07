@@ -214,7 +214,7 @@ section img {
     }
 
     article, img {
-        width: 90%;
+        width: 100%;
     }
 
     .listen, 
@@ -233,7 +233,7 @@ section img {
 .date-month,
 .date-day,
 .date-time {
-    font-size:1em;
+    font-size:0.7em;
 }
 
 }
