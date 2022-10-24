@@ -79,8 +79,12 @@ article {
  iframe {
     margin: 20px;
     max-width: 600px;
+    align-self: center;
  }
 
+ .push {
+    margin-right: 0;
+ }
 /* TYPOGRAPHY */
 .title-home, 
 .hero,
@@ -217,6 +221,10 @@ section img {
     nav, 
     nav a{
         display: block;
+    }
+
+    .push {
+        display: inline;
     }
 
     article{
