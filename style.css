@@ -83,8 +83,7 @@ img {
 .about, 
 .listen, 
 .calendar-page, 
-.contact,
-section {
+.contact {
     background-color:#111111aa;
     width: 100vw;
     min-height: 100vh;
