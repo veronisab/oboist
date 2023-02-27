@@ -10,7 +10,7 @@
 
 body {
     background: url(bg-d.jpg) no-repeat center fixed;
-    background-color: #11111133;
+    background-color: #11111188;
     background-blend-mode: darken;
     background-size: cover;
     color: #ccc;
@@ -84,7 +84,7 @@ img {
 .listen, 
 .calendar-page, 
 .contact {
-    background-color:#111111aa;
+    background-color:#111111cc;
     width: 100vw;
     min-height: 100vh;
     display: flex;
